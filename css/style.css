@@ -53,4 +53,31 @@
   text-transform: uppercase;
   font-family: 'Righteous', Regular;
   font-size: 80px;
-  padding-top: 90px; }
+  padding-top: 100px; }
+
+.head-para {
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+  line-height: 1.625; }
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; }
+  .button__btn {
+    background: #ffffff;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 50px; }
+  .button__link {
+    color: #6c757d;
+    font-size: 15px;
+    font-family: sans-serif; }

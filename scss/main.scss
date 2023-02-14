@@ -223,6 +223,10 @@
     }
 
 }
+.button-about:hover {
+    background-color: #2b2278;
+    border: 1px solid #2b2278
+}
 // vedio-section
 .vedio-section {
     width: 100%;
@@ -230,6 +234,19 @@
     background-image: url(../image/blog-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
-
+}
+.text-vedio {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 30px;
+}
+.title-vedio {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
 }

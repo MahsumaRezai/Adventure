@@ -315,3 +315,56 @@
 .button-info__btn:hover {
   background: #2b2278;
   border: 1px solid #2b2278; }
+
+.footer {
+  height: 700px;
+  width: 100%;
+  background-image: url(../image/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center; }
+
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  margin: 0% auto;
+  gap: 50px;
+  padding-top: 150px; }
+
+.footer-bar {
+  width: 100%;
+  height: 80px;
+  background-color: #343a40; }
+
+.footer-input__inp {
+  width: 500px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid white;
+  border-radius: 50px; }
+
+.footer-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 20px; }
+  .footer-email__link {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none; }
+
+.coumation-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 40px; }

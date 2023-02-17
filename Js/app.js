@@ -1,33 +1,48 @@
-function submitdata() {
+// vaild date
+function data() {
     let username = document.getElementById("name").value;
-    let phon_number = document.getElementById("phone").value;
-    let emailadd = document.getElementById("email").value;
-    let valid = true;
+    let pass = document.getElementById("email").value;
+    let phone_num = document.getElementById("phone").value;
+    let vaild = true;
     if (username == "") {
-        document.getElementById("start-name").innerText = "*"
-        valid = false;
+        document.getElementById("start-name").innerText = "*";
+        vaild = false;
+    }
+    else if (username.indexOf(" ") > 0) {
+        document.getElementById("start-name").innerText = "can not use space!";
+        vaild = false
+
+    }
+    else {
+        document.getElementById("start-name").innerText = "";
+
     }
 
-    if (phon_number == "") {
-        document.getElementById("start-phone").innerText = "*"
-        valid = false;
-    }
-    if (emailadd == "") {
+    if (pass == "") {
         document.getElementById("start-email").innerText = "*"
-        valid = false;
+        vaild = false;
+    }
+    else {
+        document.getElementById("start-email").innerText = ""
+
+    }
+    if (phone_num == "") {
+        document.getElementById("start-phone").innerText = "*";
+        vaild = false;
+
+    }
+    else {
+        document.getElementById("start-phone").innerText = "";
     }
 
-    window.setTimeout(time_set, 10000);
-    return valid;
-
+    window.setTimeout(time, 8000)
+    return vaild;
 }
-
-
-function time_set() {
-    document.getElementById("start-name").innerText = "";
-    document.getElementById("start-phon").innerText = "";
-    document.getElementById("start-email").innerText = "";
-
-
+// time function 
+function time() {
+    document.getElementById("suser").innerText = ""
+    document.getElementById("semail").innerText = ""
+    document.getElementById("spassword").innerText = ""
+    document.getElementById("sbd").innerText = ""
 
 }

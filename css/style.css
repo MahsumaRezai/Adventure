@@ -48,6 +48,9 @@
     @media screen and (max-width: 550px) {
       .link__item {
         font-size: 15px; } }
+    @media screen and (max-width: 400px) {
+      .link__item {
+        font-size: 12px; } }
   .link__item:hover {
     text-decoration: underline;
     text-decoration-style: double;
@@ -175,22 +178,15 @@
   flex-direction: column;
   gap: 50px;
   flex-wrap: nowrap; }
-  @media screen and (max-width: 1024px) {
-    .about-text {
-      display: none;
-      padding-top: 0%; } }
 
 .about-img__img {
   width: 800px;
   height: 650px; }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1024px) {
   .about-img {
-    height: 500px; } }
-
-@media screen and (max-width: 820px) {
-  .about-img {
-    display: none; } }
+    display: none;
+    padding-top: 0%; } }
 
 .title-about {
   font-family: sans-serif;
@@ -453,6 +449,9 @@
   @media screen and (max-width: 550px) {
     .input-from {
       width: 400px; } }
+  @media screen and (max-width: 400px) {
+    .input-from {
+      width: 300px; } }
 
 .input-submit {
   width: 200px;
@@ -485,6 +484,9 @@
   @media screen and (max-width: 550px) {
     .textarea {
       width: 400px; } }
+  @media screen and (max-width: 400px) {
+    .textarea {
+      width: 300px; } }
 
 .required {
   font-size: 20px;

@@ -3,6 +3,7 @@ function data() {
     let username = document.getElementById("name").value;
     let pass = document.getElementById("email").value;
     let phone_num = document.getElementById("phone").value;
+    let req = new RegExp("07[234567890][0-9]{7}")
     let vaild = true;
     if (username == "") {
         document.getElementById("start-name").innerText = "*";
@@ -30,6 +31,9 @@ function data() {
         document.getElementById("start-phone").innerText = "*";
         vaild = false;
 
+    }
+    else if (phone_num.length <10) {
+        document.getElementById("start-phone").innerText= "At leat 10 number"
     }
     else {
         document.getElementById("start-phone").innerText = "";

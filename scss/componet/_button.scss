@@ -1,0 +1,30 @@
+// button section 
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    &__btn {
+        background: #ffffff;
+        width: 200px;
+        height: 50px;
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+    }
+    &__btn:hover{
+        background: #6610f2;
+        border: 1px solid #6610f2;
+    
+    }
+    &__link {
+        color:#6c757d;
+        font-size: 17px;
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    &__link:hover {
+        color: #ffffff;
+    }
+
+}
